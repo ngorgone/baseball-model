@@ -23,7 +23,7 @@ on:
 
 env:
   # UPDATE THIS: Replace with your Streamlit app URL
-  STREAMLIT_APP_URL: 'https://baseball-predictions.streamlit.app/'
+  STREAMLIT_APP_URL: 'https://baseball-model.streamlit.app/'
 
 jobs:
   ping-app:
