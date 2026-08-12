@@ -1,15 +1,15 @@
 {
   "meta": {
     "sport": "MLB",
-    "generated_at": "2026-08-12T12:20:19.829034+00:00",
+    "generated_at": "2026-08-12T12:58:13.321064+00:00",
     "model_version": "1.0.0",
     "season": "2026",
-    "status": "pipeline_failed",
+    "status": "no_qualifying_picks",
     "tier_definition": "edge-v1",
     "lookahead_days": 0,
-    "source_commit": "56efe3224137771ab12858f1b5880df8813d0be4",
+    "source_commit": "22be9f749616fbeb9b23e95ec11a299c141d4ec8",
     "total_bets": 0,
-    "notes": "ValueError: Set ODDS_API_KEY environment variable",
+    "notes": "No qualifying MLB picks for 2026-08-12",
     "target_date": "2026-08-12",
     "picks_count": 0
   },
