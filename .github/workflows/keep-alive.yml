@@ -17,7 +17,7 @@ name: Keep Streamlit App Alive
 on:
   schedule:
     # Run every 30 minutes with randomization (pings roughly every 30-40 minutes)
-    - cron: '*/30 * * * *'
+    - cron: '*/45 * * * *'
   
   workflow_dispatch:  # Allow manual trigger for testing
 
