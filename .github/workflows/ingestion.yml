@@ -2,8 +2,9 @@ name: Daily Ingestion
 
 on:
   schedule:
-    # run each day at 10:30 UTC (morning in US)
-    - cron: '37 10 * * *'
+  # run each day at 8:25 (morning in US)
+    - cron: '25 8 * * *'
+      timezone: 'America/New_York'
   workflow_dispatch: {}
 
 concurrency:
