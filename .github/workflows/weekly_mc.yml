@@ -4,7 +4,7 @@ name: Weekly Monte Carlo + Savant Model Rebuild
 # the US day begins. Also triggerable manually via workflow_dispatch.
 on:
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '0 5 * * 1'
   workflow_dispatch: {}
 
 jobs:
